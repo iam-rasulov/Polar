@@ -86,20 +86,27 @@ img{
 }
 
 .container{
-  width: 1572px;
+  width: 1752px;
   padding: 0 230px;
   margin: 0 auto;
 }
 
+.inner{
+  padding: 0 20px 0 20px;
+}
+
 .header__inner{
   display: flex;
+  padding: 0 20px 0 20px;
   justify-content: space-between;
   align-items: center;
+  background-color: #F8EDF0;
 }
 
 .site-logo{
   width: 79px;
   height: 79px;
+  margin-left: 20px;
 }
 
 .navbar{
@@ -158,6 +165,7 @@ img{
   background-image: url(../images/hero-ice-cream.png);
   background-repeat: no-repeat;
   background-position: calc(120%);
+  background-color: #F8EDF0;
 }
 
 .hero__text1{
@@ -176,4 +184,11 @@ img{
   font-size: 57px;
   font-weight: 400;
   line-height: 90px;
+}
+
+.hero__link{
+  width: 160px;
+  height: 49px;
+  margin-top: ;
+  padding: 14px;
 }
